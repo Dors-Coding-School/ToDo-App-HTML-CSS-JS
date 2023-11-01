@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ToDo App</title>
+    <script>
+        // TODO: Write your JavaScript commands here
+        document.addEventListener('DOMContentLoaded', () => {
+
+            //Select the form tag in HTML to be used later
+            const form = document.querySelector('form');
+
+            //Select the ul tag in HTML to be used later
+            const ul = document.querySelector('ul');
+
+            //Select the submit button in HTML to be used later
+            const submit = document.querySelector('#submit');
+
+            //Select the task input in HTML to be used later
+            let newtask = document.querySelector('#task');
+
+            //Default action for the submit button when you enter on the page
+            submit.disabled = true;
+
+            //Listen for input to be typed into the input field
+            newtask.addEventListener('keyup', () => {
+                //When there is nothing typed in the input, turns the submit button disabled
+                if (newtask.value === '') {
+                submit.disabled = true;
+                }
+                //When there is something typed in the input, turns the submit button enable
+                else {
+                submit.disabled = false;
+                }
+            });
+
+            //When submit the task
+            form.addEventListener('submit', (event) => {
+                //Prevents the default submission of the form which involves either reloading the current page or redirecting to a new one
+                event.preventDefault();
+
+                //We can create HTML elements using the createElement function
+                //Creates an list item on HTML
+                const li = document.createElement('li');
+
+                //Add newtask value in list item
+                li.innerHTML = newtask.value;
+
+                //We can then add HTML those elements to the DOM using the append function
+                //Append the list item to unordered list
+                ul.append(li);
+
+                //Clear the value of newtask variable and set it to empty
+                newtask.value = '';
+
+                //Disable button when there is nothing in newtask
+                submit.disabled = true;
+            });
+        });
+    </script>
+</head>
+  <body>
+    <h1>Todo App</h1>
+    <!-- TODO: Write your HTML commands here -->
+        
+        <div>
+            <!--Creates an unordered list to display the tasks-->
+            <!--The javascript code will handle the list items-->
+            <ul id="tasks"></ul>
+        </div>
+
+        <!--Creates a form to the user inputs a new task-->
+        <div>
+            <form>
+                <!--This input field is to type the new task-->
+                <input id="task" placeholder = "New Task" type="text">
+                <!--This input field is to create a submit button-->
+                <input id="submit" type="submit">
+            </form>
+        </div>
+  </body>
+</html>
