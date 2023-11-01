@@ -1,4 +1,5 @@
 const puppeteer = require('puppeteer');
+const path = require('path');
 
 let page;
 let browser;
@@ -7,14 +8,25 @@ const height = 600;
 const timeout = 15000;
 
 beforeAll(async () => {
-    browser = await puppeteer.launch();
+    const filePath = path.join(__dirname, 'exercise.html');
+    
+    browser = await puppeteer.launch({
+      headless: true,
+      args: [
+         '--no-sandbox',
+         '--disable-setuid-sandbox',
+         '--disable-dev-shm-usage',
+         '--font-render-hinting=none'
+      ]
+    });
+    
     page = await browser.newPage();
-    await page.goto('file:///exercise.html');
+    await page.goto(`file://${filePath}`);
     await page.setViewport({ width, height });
 });
 
 afterAll(() => {
-    browser.close();
+    if (browser) browser.close();
 });
 
 describe("Todo App Tests", () => {
@@ -33,4 +45,3 @@ describe("Todo App Tests", () => {
     }, timeout);
 
 });
-
