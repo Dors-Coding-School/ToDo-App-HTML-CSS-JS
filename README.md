@@ -12,13 +12,13 @@ Your task is to create a simple ToDo application that allows a user to:
 ### 1. Set Up the HTML:
 - Create a form element with an input field where users can type their tasks.
 - Add a button within the form that users can click on to add their task.
-- Create an unordered list (<ul>) element where the tasks will be displayed as list items (<li>).
+- Create an unordered list (`<ul>`) element where the tasks will be displayed as list items (`<li>`).
 
 ### 2. Set Up the JavaScript:
 - Add an event listener to the form to detect when it's submitted.
 - When the form is submitted, prevent its default behavior (which might refresh the page).
 - Retrieve the task entered by the user from the input field.
-- Create a new list item (<li>) and set its inner text or inner HTML to the task retrieved.
+- Create a new list item (`<li>`) and set its inner text or inner HTML to the task retrieved.
 - Append this list item to the unordered list in the HTML.
 - Clear the input field to allow for the entry of a new task.
 
