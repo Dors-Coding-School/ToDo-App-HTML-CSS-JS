@@ -3,6 +3,6 @@
     "test": "jest"
   },
   "devDependencies": {
-    "jest": "^latest_version"
+    "jest": "^27.0.0"
   }
 }
