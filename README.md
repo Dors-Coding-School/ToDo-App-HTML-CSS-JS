@@ -22,10 +22,15 @@ Your task is to create a simple ToDo application that allows a user to:
 - Append this list item to the unordered list in the HTML.
 - Clear the input field to allow for the entry of a new task.
 
+## How to Run Your Website:
+1. Navigate to the root directory of this exercise in your terminal or command prompt.
+2. Run the command `htpp-server`
+
 ## How to Run Tests:
 After completing the exercise, you can run the provided tests to ensure that your ToDo application is functioning as expected:
 
 1. Navigate to the root directory of this exercise in your terminal or command prompt.
 2. Run the command `npm install` to install the necessary testing dependencies (only needs to be done once).
-3. Run the command `npm test` to execute the tests.
-4. If all goes well, you should see a message indicating the tests that passed. If there are issues, the failed tests will provide hints or messages to help you identify the problem.
+3. Run the command `sudo apt-get update` and then `sudo apt-get install -y libxshmfence1`
+4. Run the command `npm test` to execute the tests.
+5. If all goes well, you should see a message indicating the tests that passed. If there are issues, the failed tests will provide hints or messages to help you identify the problem.
