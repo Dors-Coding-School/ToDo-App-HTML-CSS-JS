@@ -1,9 +1,12 @@
 {
-  "scripts": {
-    "test": "jest"
-  },
-  "devDependencies": {
-    "jest": "^27.0.0",
-    "puppeteer": "^19.4.0"
-  }
+    "scripts": {
+        "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^27.0.0"
+    },
+    "dependencies": {
+        "puppeteer": "^10.1.0",
+        "puppeteer-core": "^10.1.0"
+    }
 }
