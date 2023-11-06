@@ -1,0 +1,11 @@
+{
+  "name": "My Project",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {},
+  "extensions": [],
+  "forwardPorts": [],
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y libxshmfence1",
+  "remoteUser": "vscode"
+}
