@@ -27,8 +27,8 @@ In case you need to see the solution, it is at `the_answer.html`.
 ## 🚀 How to Run Tests:
 After completing the exercise, you can run the provided tests to ensure that your ToDo application is functioning as expected:
 1. Go to the terminal
-2. Run the command `npm install` to install the things that we need to test your code.
-3. Run the command `sudo apt-get update` and then `sudo apt-get install -y libxshmfence1`
+2. Run the command `sudo apt-get update` to install the things that we need to test your code.
+3. Run the command `sudo apt-get install -y libxshmfence1` to install the things that we need to test your code.
 4. Run the command `npm test` to execute the tests.
   If all goes well, you should see a message indicating the tests that passed. If there are issues, the failed tests will provide hints or messages to help you identify the problem.
 
