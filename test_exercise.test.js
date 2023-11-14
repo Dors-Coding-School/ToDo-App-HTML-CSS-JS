@@ -31,7 +31,7 @@ afterAll(() => {
 
 describe("Todo App Tests", () => {
 
-    test("Should add a task", async () => {
+    test("Your Website Should Be Able to Add a Task", async () => {
         await page.type('#task', 'Test Task');
         await page.click('#submit');
 
@@ -39,7 +39,7 @@ describe("Todo App Tests", () => {
         expect(taskContent).toBe('Test Task');
     }, timeout);
 
-    test("Submit button should be disabled with empty input", async () => {
+    test("Your Website Should Have an Submit Button Disabled When There is an Empty Input", async () => {
         const buttonDisabled = await page.$eval('#submit', btn => btn.disabled);
         expect(buttonDisabled).toBe(true);
     }, timeout);
