@@ -9,15 +9,15 @@ Your task is to create a simple ToDo application that allows a user to:
 2. View the entered task appended to an unordered list on the page.
 
 You'll only write in the `exercise.html` file. 
-In case you need to see the solution, it is at `answer.html`.
+In case you need to see the solution, it is at `the_answer.html`.
 
 ## ✅ Specific Tasks (JavaScript):
-### 1. Add an event listener to the form to detect when it's submitted.
-### 2. When the form is submitted, prevent its default behavior (which might refresh the page).
-### 3. Retrieve the task entered by the user from the input field.
-### 4. Create a new list item (`<li>`) and set its inner text or inner HTML to the task retrieved.
-### 5. Append this list item to the unordered list in the HTML.
-### 6. Clear the input field to allow for the entry of a new task.
+#### 1. Add an event listener to the form to detect when it's submitted.
+#### 2. When the form is submitted, prevent its default behavior (which might refresh the page).
+#### 3. Retrieve the task entered by the user from the input field.
+#### 4. Create a new list item (`<li>`) and set its inner text or inner HTML to the task retrieved.
+#### 5. Append this list item to the unordered list in the HTML.
+#### 6. Clear the input field to allow for the entry of a new task.
 
 ## 📘 How to Run Your Website:
 1. Go to the terminal
@@ -50,4 +50,4 @@ Once all the tests have completed:
 
 ## 🤔 Need Help?
 - Clarifications: If you need any clarifications, don't hesitate to reach out on Discord.
-- Solutions: A file named `answer.html` is available. Refer to it only if you've spent a significant amount of time (30+ minutes) on a problem without progress.
+- Solutions: A file named `the_answer.html` is available. Refer to it only if you've spent a significant amount of time (30+ minutes) on a problem without progress.
