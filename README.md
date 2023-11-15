@@ -12,17 +12,37 @@ You'll only write in the `exercise.html` file.
 In case you need to see the solution, it is at `the_answer.html`.
 
 ## ✅ Specific Tasks (JavaScript):
-#### 1. Add an event listener to the form to detect when it's submitted.
-#### 2. When the form is submitted, prevent its default behavior (which might refresh the page).
-#### 3. Retrieve the task entered by the user from the input field.
-#### 4. Create a new list item (`<li>`) and set its inner text or inner HTML to the task retrieved.
-#### 5. Append this list item to the unordered list in the HTML.
-#### 6. Clear the input field to allow for the entry of a new task.
+#### 1. Store the components of HTML in JavaScript variables
+         a. Create a variable to store the <form> tag
+         b. Create a variable to store the <ul> tag
+         c. Create a variable to store the <button> tag
+         d. Create a variable to store the <input> tag
+
+#### 2. Set default action for the submit button when you enter on the page
+
+#### 3. Add an event listener to the input to detect when it's keyup
+         a. When there is nothing typed in the input, turns the submit button disabled
+         b. When there is something typed in the input, turns the submit button enable
+         
+#### 4. Add an event listener to the form to detect when it's submitted.
+         a. When the form is submitted, prevent its default behavior (which might refresh the page).
+         b. Retrieve the task entered by the user from the input field.
+         c. Create a new list item (`<li>`) 
+         d. Add newtask value in list item using innerHTML function
+         e. Create a <button> tag to each individual <li> created
+         f. Add message 'Delete' in the button using innerHTML function
+         g. Listen When delete button is clicked
+            - Remove the item from list (use removeChild function)
+         h. Add the deleteButton to the <li> tag using the appendChild function
+         i. Add the <li> tag to <ul> tag using the appendChild function
+         j. Clear the input field to allow for the entry of a new task.
+         k. Disable button when there is nothing in newtask
 
 ## 📘 How to Run Your Website:
 1. Go to the terminal
 2. Run the command `http-server`
-   It will generate a link in your terminal. Click on that link and you will see your website!
+   It will generate a link in your terminal. Click on that link and then `exercise.html` that appears in this link.
+   You will see your website!
 
 ## 🚀 How to Run Tests:
 After completing the exercise, you can run the provided tests to ensure that your ToDo application is functioning as expected:
