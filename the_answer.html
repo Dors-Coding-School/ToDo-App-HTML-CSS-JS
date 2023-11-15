@@ -45,6 +45,22 @@
                 //Add newtask value in list item
                 li.innerHTML = newtask.value;
 
+                // Create delete button to each individual li created
+                const deleteButton = document.createElement('button');
+
+                // Add message 'Delete' in the button
+                deleteButton.innerHTML = 'Delete';
+
+                // When delete button is clicked
+                deleteButton.addEventListener('click', function () {
+                    // Remove the item from list
+                    ul.removeChild(li);
+                });
+
+                //We can then add HTML those elements to the DOM using the append function
+                //Append the button to list item
+                li.appendChild(deleteButton);
+
                 //We can then add HTML those elements to the DOM using the append function
                 //Append the list item to unordered list
                 ul.append(li);
