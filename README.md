@@ -14,15 +14,15 @@ In case you need to see the solution, it is at `the_answer.html`.
 ## Starter Code
 The HTML code consists of two primary components:
 
-1. Task Display List
-         * Container: A `<div>` element that groups the content related to task display.
-         * Unordered List: An `<ul>` element with the ID `tasks`, dedicated to displaying tasks. This list is dynamically manipulated using JavaScript to add, remove, or show tasks as needed.
+1. **Task Display List**
+   - **Container**: A `<div>` element that groups the content related to task display.
+   - **Unordered List**: An `<ul>` element with the ID `tasks`, dedicated to displaying tasks. This list is dynamically manipulated using JavaScript to add, remove, or show tasks as needed.
 
-2. Task Input Form
-         * Container: Another `<div>` element that encapsulates the form elements.
-         * Form Element: A `<form>` tag, which is the foundation of the task input functionality. It is designed to be interacted with via JavaScript.
-                  * Task Input Field: An `<input>` element of the type text, identified by the ID `task`. It includes a placeholder attribute with the text "New Task", guiding users on where to enter new tasks.
-                  * Submit Button: An `<input>` element of the type submit, marked with the ID `submit`. This button is intended to trigger the addition of the new task. The actual submission logic is presumed to be handled by JavaScript.
+2. **Task Input Form**
+   - **Container**: Another `<div>` element that encapsulates the form elements.
+   - **Form Element**: A `<form>` tag, which is the foundation of the task input functionality. It is designed to be interacted with via JavaScript.
+     - **Task Input Field**: An `<input>` element of the type text, identified by the ID `task`. It includes a placeholder attribute with the text "New Task", guiding users on where to enter new tasks.
+     - **Submit Button**: An `<input>` element of the type submit, marked with the ID `submit`. This button is intended to trigger the addition of the new task. The actual submission logic is presumed to be handled by JavaScript.
 
 
 ## ✅ Specific Tasks (JavaScript):
