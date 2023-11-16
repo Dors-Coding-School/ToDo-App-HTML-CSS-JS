@@ -40,7 +40,7 @@ In case you need to see the solution, it is at `the_answer.html`.
 
 ## 📘 How to Run Your Website:
 1. Go to the terminal
-2. Run the command `http-server`
+2. Run the command `npm start`
    It will generate a link in your terminal. Click on that link and then `exercise.html` that appears in this link.
    You will see your website!
 
