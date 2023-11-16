@@ -11,6 +11,20 @@ Your task is to create a simple ToDo application that allows a user to:
 You'll only write in the `exercise.html` file. 
 In case you need to see the solution, it is at `the_answer.html`.
 
+## Starter Code
+The HTML code consists of two primary components:
+
+1. Task Display List
+         - Container: A `<div>` element that groups the content related to task display.
+         - Unordered List: An `<ul>` element with the ID `tasks`, dedicated to displaying tasks. This list is dynamically manipulated using JavaScript to add, remove, or show tasks as needed.
+
+2. Task Input Form
+         - Container: Another `<div>` element that encapsulates the form elements.
+         - Form Element: A `<form>` tag, which is the foundation of the task input functionality. It is designed to be interacted with via JavaScript.
+                  - Task Input Field: An `<input>` element of the type text, identified by the ID `task`. It includes a placeholder attribute with the text "New Task", guiding users on where to enter new tasks.
+                  - Submit Button: An `<input>` element of the type submit, marked with the ID `submit`. This button is intended to trigger the addition of the new task. The actual submission logic is presumed to be handled by JavaScript.
+
+
 ## ✅ Specific Tasks (JavaScript):
 #### 1. Store the components of HTML in JavaScript variables
          a. Create a variable to store the <form> tag
@@ -18,7 +32,7 @@ In case you need to see the solution, it is at `the_answer.html`.
          c. Create a variable to store the <button> tag
          d. Create a variable to store the <input> tag
 
-#### 2. Set default action for the submit button when you enter on the page
+#### 2. Set the submit button disabled when you enter on the page
 
 #### 3. Add an event listener to the input to detect when it's keyup
          a. When there is nothing typed in the input, turns the submit button disabled
@@ -41,7 +55,7 @@ In case you need to see the solution, it is at `the_answer.html`.
 ## 📘 How to Run Your Website:
 1. Go to the terminal
 2. Run the command `npm start`
-   It will generate a link in your terminal. Click on that link and then `exercise.html` that appears in this link.
+3. It will generate a link in your terminal. Click on that link and then `exercise.html` that appears in this link.
    You will see your website!
 
 ## 🚀 How to Run Tests:
