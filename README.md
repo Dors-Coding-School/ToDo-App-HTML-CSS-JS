@@ -11,7 +11,7 @@ Your task is to create a simple ToDo application that allows a user to:
 You'll only write in the `exercise.html` file. 
 In case you need to see the solution, it is at `the_answer.html`.
 
-## Starter Code
+## 📚 Starter Code
 The HTML code consists of two primary components:
 
 1. **Task Display List**
@@ -27,30 +27,31 @@ The HTML code consists of two primary components:
 
 ## ✅ Specific Tasks (JavaScript):
 #### 1. Store the components of HTML in JavaScript variables
-         a. Create a variable to store the <form> tag
-         b. Create a variable to store the <ul> tag
-         c. Create a variable to store the <button> tag
-         d. Create a variable to store the <input> tag
+   - **a.** Create a variable to store the `<form>` tag
+   - **b.** Create a variable to store the `<ul>` tag
+   - **c.** Create a variable to store the `<button>` tag
+   - **d.** Create a variable to store the `<input>` tag
 
 #### 2. Set the submit button disabled when you enter on the page
 
 #### 3. Add an event listener to the input to detect when it's keyup
-         a. When there is nothing typed in the input, turns the submit button disabled
-         b. When there is something typed in the input, turns the submit button enable
+   - **a.** When there is nothing typed in the input, turns the submit button disabled
+   - **b.** When there is something typed in the input, turns the submit button enable
          
 #### 4. Add an event listener to the form to detect when it's submitted.
-         a. When the form is submitted, prevent its default behavior (which might refresh the page).
-         b. Retrieve the task entered by the user from the input field.
-         c. Create a new list item (`<li>`) 
-         d. Add newtask value in list item using innerHTML function
-         e. Create a <button> tag to each individual <li> created
-         f. Add message 'Delete' in the button using innerHTML function
-         g. Listen When delete button is clicked
-            - Remove the item from list (use removeChild function)
-         h. Add the deleteButton to the <li> tag using the appendChild function
-         i. Add the <li> tag to <ul> tag using the appendChild function
-         j. Clear the input field to allow for the entry of a new task.
-         k. Disable button when there is nothing in newtask
+   - **a.** When the form is submitted, prevent its default behavior (which might refresh the page).
+   - **b.** Retrieve the task entered by the user from the input field.
+   - **c.** Create a new list item (`<li>`)
+   - **d.** Add new task value in list item using innerHTML function
+   - **e.** Create a `<button>` tag to each individual `<li>` created
+   - **f.** Add message 'Delete' in the button using innerHTML function
+   - **g.** Listen When delete button is clicked
+       - Remove the item from list (use removeChild function)
+   - **h.** Add the deleteButton to the `<li>` tag using the appendChild function
+   - **i.** Add the `<li>` tag to `<ul>` tag using the appendChild function
+   - **j.** Clear the input field to allow for the entry of a new task.
+   - **k.** Disable button when there is nothing in newtask
+
 
 ## 📘 How to Run Your Website:
 1. Go to the terminal
