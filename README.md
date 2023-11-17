@@ -7,6 +7,7 @@ Your task is to create a simple ToDo application that allows a user to:
 
 1. Enter a task using a form.
 2. View the entered task appended to an unordered list on the page.
+3. Remove the task they want to delete (by clicking in a individual button for each item)
 
 You'll only write in the `exercise.html` file. 
 In case you need to see the solution, it is at `the_answer.html`.
